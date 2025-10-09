@@ -1,0 +1,66 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "LoggingTime-arm64-apple-macosx15.0-debug.module": ["<LoggingTime-arm64-apple-macosx15.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "Swifter-arm64-apple-macosx15.0-debug.module": ["<Swifter-arm64-apple-macosx15.0-debug.module>"]
+  "main": ["<Swifter-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<Swifter-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/Sources/Swifter/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Extensions/String+Formatting.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/LogLevel.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/Formatting/FunctionNameFormatter.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/Formatting/LocationInfo.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/Formatting/LoggingConstants.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/Formatting/MessageFormatter.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/LoggingContext.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/PreviewLogger.swift"]
+    outputs: ["/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/sources"]
+    description: "Write auxiliary file /Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/sources"
+
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/Sources/Swifter/Protocols/AppStateHandler.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/Sources/Swifter/Protocols/BackendStatusProviding.swift"]
+    outputs: ["/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/sources"]
+    description: "Write auxiliary file /Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/sources"
+
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<LoggingTime-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Modules/LoggingTime.swiftmodule"]
+    outputs: ["<LoggingTime-arm64-apple-macosx15.0-debug.module>"]
+
+  "<Swifter-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Modules/Swifter.swiftmodule"]
+    outputs: ["<Swifter-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.LoggingTime-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Extensions/String+Formatting.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/LogLevel.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/Formatting/FunctionNameFormatter.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/Formatting/LocationInfo.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/Formatting/LoggingConstants.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/Formatting/MessageFormatter.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/LoggingContext.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/PreviewLogger.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/sources"]
+    outputs: ["/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Modules/LoggingTime.swiftmodule"]
+    description: "Compiling Swift Module 'LoggingTime' (8 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","LoggingTime","-emit-dependencies","-emit-module","-emit-module-path","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Modules/LoggingTime.swiftmodule","-output-file-map","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/output-file-map.json","-parse-as-library","-incremental","@/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/sources","-I","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/include/LoggingTime-Swift.h","-swift-version","6","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","logging_time"]
+
+  "C.Swifter-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/Sources/Swifter/Protocols/AppStateHandler.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/Sources/Swifter/Protocols/BackendStatusProviding.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Modules/LoggingTime.swiftmodule","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/sources"]
+    outputs: ["/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Modules/Swifter.swiftmodule"]
+    description: "Compiling Swift Module 'Swifter' (2 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","Swifter","-emit-dependencies","-emit-module","-emit-module-path","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Modules/Swifter.swiftmodule","-output-file-map","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/output-file-map.json","-parse-as-library","-incremental","@/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/sources","-I","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/include/Swifter-Swift.h","-swift-version","6","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","swifter"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/Sources/Swifter/","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/Package.swift","/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

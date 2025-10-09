@@ -1,0 +1,4 @@
+module APITime {
+    header "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/APITime-Swift.h"
+    requires objc
+}

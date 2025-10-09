@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/LoggingTime/.build/arm64-apple-macosx/debug/LoggingTime.build/master.swiftdeps"
+  },
+  "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/LoggingTime/Sources/LoggingTime/LoggerForPreviews.swift": {
+    "dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/LoggingTime/.build/arm64-apple-macosx/debug/LoggingTime.build/LoggerForPreviews.d",
+    "object": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/LoggingTime/.build/arm64-apple-macosx/debug/LoggingTime.build/LoggerForPreviews.swift.o",
+    "swiftmodule": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/LoggingTime/.build/arm64-apple-macosx/debug/LoggingTime.build/LoggerForPreviews~partial.swiftmodule",
+    "swift-dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/LoggingTime/.build/arm64-apple-macosx/debug/LoggingTime.build/LoggerForPreviews.swiftdeps"
+  }
+}

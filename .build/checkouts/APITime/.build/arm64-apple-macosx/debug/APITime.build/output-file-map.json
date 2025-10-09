@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/master.swiftdeps"
+  },
+  "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/Sources/APITime/Components/APIConfigurations.swift": {
+    "dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/APIConfigurations.d",
+    "object": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/APIConfigurations.swift.o",
+    "swiftmodule": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/APIConfigurations~partial.swiftmodule",
+    "swift-dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/APIConfigurations.swiftdeps"
+  },
+  "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/Sources/APITime/Components/Coders/CustomJSONCoder.swift": {
+    "dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/CustomJSONCoder.d",
+    "object": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/CustomJSONCoder.swift.o",
+    "swiftmodule": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/CustomJSONCoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/CustomJSONCoder.swiftdeps"
+  },
+  "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/Sources/APITime/Components/Data Models/HTTPRequestRelated.swift": {
+    "dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/HTTPRequestRelated.d",
+    "object": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/HTTPRequestRelated.swift.o",
+    "swiftmodule": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/HTTPRequestRelated~partial.swiftmodule",
+    "swift-dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/HTTPRequestRelated.swiftdeps"
+  },
+  "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/Sources/APITime/Components/HTTPEndpoint.swift": {
+    "dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/HTTPEndpoint.d",
+    "object": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/HTTPEndpoint.swift.o",
+    "swiftmodule": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/HTTPEndpoint~partial.swiftmodule",
+    "swift-dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/HTTPEndpoint.swiftdeps"
+  },
+  "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/Sources/APITime/Components/URLRequestConfigurator.swift": {
+    "dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/URLRequestConfigurator.d",
+    "object": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/URLRequestConfigurator.swift.o",
+    "swiftmodule": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/URLRequestConfigurator~partial.swiftmodule",
+    "swift-dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/URLRequestConfigurator.swiftdeps"
+  },
+  "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/Sources/APITime/Operations/APIOperation.swift": {
+    "dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/APIOperation.d",
+    "object": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/APIOperation.swift.o",
+    "swiftmodule": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/APIOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITime.build/APIOperation.swiftdeps"
+  }
+}

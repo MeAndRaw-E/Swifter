@@ -1,0 +1,61 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/master.swiftdeps"
+  },
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Extensions/String+Formatting.swift": {
+    "dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/String+Formatting.d",
+    "object": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/String+Formatting.swift.o",
+    "swiftmodule": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/String+Formatting~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/String+Formatting.swiftdeps",
+    "diagnostics": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/String+Formatting.dia"
+  },
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/LogLevel.swift": {
+    "dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LogLevel.d",
+    "object": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LogLevel.swift.o",
+    "swiftmodule": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LogLevel~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LogLevel.swiftdeps",
+    "diagnostics": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LogLevel.dia"
+  },
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/Formatting/FunctionNameFormatter.swift": {
+    "dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/FunctionNameFormatter.d",
+    "object": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/FunctionNameFormatter.swift.o",
+    "swiftmodule": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/FunctionNameFormatter~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/FunctionNameFormatter.swiftdeps",
+    "diagnostics": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/FunctionNameFormatter.dia"
+  },
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/Formatting/LocationInfo.swift": {
+    "dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LocationInfo.d",
+    "object": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LocationInfo.swift.o",
+    "swiftmodule": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LocationInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LocationInfo.swiftdeps",
+    "diagnostics": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LocationInfo.dia"
+  },
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/Formatting/LoggingConstants.swift": {
+    "dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LoggingConstants.d",
+    "object": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LoggingConstants.swift.o",
+    "swiftmodule": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LoggingConstants~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LoggingConstants.swiftdeps",
+    "diagnostics": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LoggingConstants.dia"
+  },
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/Formatting/MessageFormatter.swift": {
+    "dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/MessageFormatter.d",
+    "object": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/MessageFormatter.swift.o",
+    "swiftmodule": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/MessageFormatter~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/MessageFormatter.swiftdeps",
+    "diagnostics": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/MessageFormatter.dia"
+  },
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/Logging/LoggingContext.swift": {
+    "dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LoggingContext.d",
+    "object": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LoggingContext.swift.o",
+    "swiftmodule": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LoggingContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LoggingContext.swiftdeps",
+    "diagnostics": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/LoggingContext.dia"
+  },
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time/Sources/PreviewLogger.swift": {
+    "dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/PreviewLogger.d",
+    "object": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/PreviewLogger.swift.o",
+    "swiftmodule": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/PreviewLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/PreviewLogger.swiftdeps",
+    "diagnostics": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/LoggingTime.build/PreviewLogger.dia"
+  }
+}

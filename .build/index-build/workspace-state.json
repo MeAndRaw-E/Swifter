@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "logging time",
+          "kind" : "fileSystem",
+          "location" : "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time",
+          "name" : "LoggingTime"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time"
+        },
+        "subpath" : "logging time"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

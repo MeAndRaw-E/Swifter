@@ -12,15 +12,13 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(
-            path: "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Logging Time"
-        )
+        .package(url: "https://github.com/MeAndRaw-E/LoggingTime", branch: "master")
     ],
     targets: [
         .target(
             name: "Swifter",
             dependencies: [
-                .product(name: "LoggingTime", package: "Logging Time")
+                .product(name: "LoggingTime", package: "LoggingTime")
             ]
         )
     ]

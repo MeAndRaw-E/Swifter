@@ -1,0 +1,4 @@
+module APITimePackageTests {
+    header "/Users/raw-e/Desktop/Useful Swift Things/My Packages/Shares/.build/checkouts/APITime/.build/arm64-apple-macosx/debug/APITimePackageTests.build/APITimePackageTests-Swift.h"
+    requires objc
+}

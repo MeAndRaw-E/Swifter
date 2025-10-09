@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/master.swiftdeps"
+  },
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/Sources/Swifter/Protocols/AppStateHandler.swift": {
+    "dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/AppStateHandler.d",
+    "object": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/AppStateHandler.swift.o",
+    "swiftmodule": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/AppStateHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/AppStateHandler.swiftdeps",
+    "diagnostics": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/AppStateHandler.dia"
+  },
+  "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/Sources/Swifter/Protocols/BackendStatusProviding.swift": {
+    "dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/BackendStatusProviding.d",
+    "object": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/BackendStatusProviding.swift.o",
+    "swiftmodule": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/BackendStatusProviding~partial.swiftmodule",
+    "swift-dependencies": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/BackendStatusProviding.swiftdeps",
+    "diagnostics": "/Users/Raw-E/Desktop/Projects/Useful Swift Things/My Packages/Swifter/.build/index-build/arm64-apple-macosx/debug/Swifter.build/BackendStatusProviding.dia"
+  }
+}
